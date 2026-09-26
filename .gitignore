@@ -1,0 +1,23 @@
+# Imagens e discos virtuais
+*.iso
+*.qcow2
+*.raw
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.zip
+# Segredos e dados locais
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+secrets/
+private/
+# Temporários
+*.swp
+*~
+.DS_Store
