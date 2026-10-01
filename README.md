@@ -13,6 +13,22 @@ Laboratório pessoal de infraestrutura com CachyOS, KVM/QEMU e libvirt, desenvol
 
 O ambiente é local. Este repositório reúne documentação, script e evidência; não publica a VM nem hospeda seu site na internet.
 
+## Evidências visuais
+
+### Página personalizada no Nginx
+
+![Página Homelab do Guilherme](evidence/2026-09-26-nginx-pagina-personalizada.png)
+
+*Página HTML personalizada servida pelo Ubuntu e acessada no Windows durante o teste do laboratório. A captura mostra o conteúdo renderizado.*
+
+### DNS e conexão HTTP entre as VMs
+
+![Consulta DNS e teste TCP da porta 80 no Windows](evidence/2026-09-26-windows-dns-http.png)
+
+*O PowerShell mostra a resolução de ubuntu.com e a conexão do Windows (192.168.122.235) à porta 80 do Ubuntu (192.168.122.223), com TcpTestSucceeded: True. A mensagem vermelha no topo pertence a uma tentativa anterior de executar o comando Linux free no Windows.*
+
+O teste de monitoramento **OK → ALERTA → OK** está registrado em texto na [documentação de backup e monitoramento](docs/05-backup-monitoramento.md).
+
 ## Objetivo
 
 Construir, operar e diagnosticar um ambiente Linux/Windows, registrando decisões, comandos, testes e resolução de incidentes. Cada etapa termina com uma evidência verificável e uma explicação do que foi aprendido.
