@@ -82,7 +82,6 @@ Windows Server/AD pode ser uma extensão futura; não integra a primeira entrega
 - [Backup, restauração e monitoramento](docs/05-backup-monitoramento.md)
 - [Diário de execução](docs/diario.md)
 - [Modelo de incidente](docs/modelo-incidente.md)
-- [Preparação para entrevista](docs/entrevista.md)
 - [Política de evidências](evidence/README.md)
 
 ## Método
